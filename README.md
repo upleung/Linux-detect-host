@@ -29,3 +29,20 @@ sudo ss -tulnp
 netstat -an | grep "ESTABLISHED" | egrep -v "127.0.0.1|::" | awk '{print $5}' | sort -u | sed -e 's/:/ /'
 
 ```
+
+
+• 显示硬件及内核架构名称：
+
+```
+uname -m
+```
+
+	• 用途：直接输出硬件架构类型（如 x86_64、aarch64 等）。
+
+  
+• 查看详细的系统与内核信息：
+```
+uname -a
+```
+
+	• 用途：显示完整的内核版本、主机名、硬件架构及操作系统类型
