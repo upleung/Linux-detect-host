@@ -46,3 +46,21 @@ uname -a
 ```
 
 	• 用途：显示完整的内核版本、主机名、硬件架构及操作系统类型
+
+
+
+
+
+
+	1. 修复后的有效链接对照
+完整版 Debian Bookworm (debian:bookworm)：
+
+AMD64: [https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-amd64/bookworm/oci/blobs/rootfs.tar.gz](https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-amd64/bookworm/oci/blobs/rootfs.tar.gz)
+
+ARM64: [https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-arm64v8/bookworm/oci/blobs/rootfs.tar.gz](https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-arm64v8/bookworm/oci/blobs/rootfs.tar.gz)
+
+精简版 Debian Bookworm (debian:bookworm-slim)：
+
+AMD64: [https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-amd64/bookworm/slim/oci/blobs/rootfs.tar.gz](https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-amd64/bookworm/slim/oci/blobs/rootfs.tar.gz)
+
+ARM64: [https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-arm64v8/bookworm/slim/oci/blobs/rootfs.tar.gz](https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-arm64v8/bookworm/slim/oci/blobs/rootfs.tar.gz)
