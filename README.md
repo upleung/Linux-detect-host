@@ -50,7 +50,7 @@ uname -a
 
 • 查询服务
 ps aux
-free -v
+free -h
 df -h\
 
 
