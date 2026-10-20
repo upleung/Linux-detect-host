@@ -49,9 +49,12 @@ uname -a
 
 
 • 查询服务
+
+```
 ps aux
 free -h
 df -h\
+```
 
 
 
